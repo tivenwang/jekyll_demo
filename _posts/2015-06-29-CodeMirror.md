@@ -1,14 +1,14 @@
 
 ---
 layout: post
-title: CodeMirror-SQLHintÊ¹ÓÃ
+title: CodeMirror-SQLHintä½¿ç”¨
 ---
 
-¼òµ¥ÃèÊöÏÂÊ¹ÓÃ³¡¾°£¬Ó¦ÓÃĞèÒªÌá¹©Ò»¸ö¼òµ¥µÄSQL²éÑ¯´°¿Ú£¬ÄÜ¹»¸ßÁÁÏÔÊ¾SQLÓï·¨¼´¿É¡£
-##### 1. »ñÈ¡´úÂëÅäÖÃÒÀÀµ
-   µ½codemirror¹ÙÍøÉÏÏÂÔØÏÂÀ´Ò»Ì×´úÂë£¬½«libÏÂµÄ```codemirror.js¡¢codemirror.css```ÎÄ¼şºÍmode/sqlÎÄ¼ş¼ĞÏÂµÄ```sql.js```ÎÄ¼şµ¼Èëµ½Ò³ÃæÖĞ¡£libÊÇcodemirrorµÄlib£¬modeÊÇµ±Ç°Ê¹ÓÃµÄÓïÑÔÄ£Ê½£¬¼´SQLÓïÑÔ¡£
-##### 2. ÈçºÎÊ¹ÓÃ
-   ÏÂÃæµÄ´úÂëÕ¹Ê¾ÁËÈçºÎ³õÊ¼»¯Ò»¸öcodemirror£¬ÒÔ¼°ÆäµÄ²ÎÊıÅäÖÃÊÍÒå¡£
+ç®€å•æè¿°ä¸‹ä½¿ç”¨åœºæ™¯ï¼Œåº”ç”¨éœ€è¦æä¾›ä¸€ä¸ªç®€å•çš„SQLæŸ¥è¯¢çª—å£ï¼Œèƒ½å¤Ÿé«˜äº®æ˜¾ç¤ºSQLè¯­æ³•å³å¯ã€‚
+##### 1. è·å–ä»£ç é…ç½®ä¾èµ–
+   åˆ°codemirrorå®˜ç½‘ä¸Šä¸‹è½½ä¸‹æ¥ä¸€å¥—ä»£ç ï¼Œå°†libä¸‹çš„```codemirror.jsã€codemirror.css```æ–‡ä»¶å’Œmode/sqlæ–‡ä»¶å¤¹ä¸‹çš„```sql.js```æ–‡ä»¶å¯¼å…¥åˆ°é¡µé¢ä¸­ã€‚libæ˜¯codemirrorçš„libï¼Œmodeæ˜¯å½“å‰ä½¿ç”¨çš„è¯­è¨€æ¨¡å¼ï¼Œå³SQLè¯­è¨€ã€‚
+##### 2. å¦‚ä½•ä½¿ç”¨
+   ä¸‹é¢çš„ä»£ç å±•ç¤ºäº†å¦‚ä½•åˆå§‹åŒ–ä¸€ä¸ªcodemirrorï¼Œä»¥åŠå…¶çš„å‚æ•°é…ç½®é‡Šä¹‰ã€‚
  ```
 <!-- Create a simple CodeMirror instance -->
 <link rel="stylesheet" href="lib/codemirror.css">
@@ -16,9 +16,9 @@ title: CodeMirror-SQLHintÊ¹ÓÃ
 <script src="mode/sql/sql.js"></script>
 <script>
   var editor = CodeMirror.fromTextArea(myTextarea, {
-    lineNumbers: true,//ÉèÖÃĞĞºÅ boolean
-    value: 'SELECT * FROM table',//±à¼­¿ò³õÊ¼Öµ string    
-    mode: 'text/x-mysql',//µ±Ç°codeÄ£Ê½ Ä£Ê½µÄÑ¡Ôñ¿ÉÒÔÔÚCodeMirror.modesÖĞ²é¿´
+    lineNumbers: true,//è®¾ç½®è¡Œå· boolean
+    value: 'SELECT * FROM table',//ç¼–è¾‘æ¡†åˆå§‹å€¼ string    
+    mode: 'text/x-mysql',//å½“å‰codeæ¨¡å¼ æ¨¡å¼çš„é€‰æ‹©å¯ä»¥åœ¨CodeMirror.modesä¸­æŸ¥çœ‹
 
   });
 </script>
